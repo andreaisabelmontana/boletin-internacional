@@ -1,1 +1,1 @@
-import {defineConfig} from 'vite';import react from '@vitejs/plugin-react';import tailwind from '@tailwindcss/vite';export default defineConfig({base:'/boletin-internacional/',plugins:[react(),tailwind()]});
+import {defineConfig} from 'vite';import react from '@vitejs/plugin-react';export default defineConfig({base:'/boletin-internacional/',plugins:[react()]});
